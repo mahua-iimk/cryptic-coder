@@ -258,6 +258,10 @@ function Home({ progress, completed, onStart, onMissions }: { progress: number; 
       <div className="kid-steps"><div className="kid-step"><span className="kid-step-icon">🕵️</span><b>1. Discover</b><p>Listen to the story and find the clue.</p></div><span className="kid-step-arrow">➜</span><div className="kid-step"><span className="kid-step-icon">🧩</span><b>2. Plan</b><p>Put the instructions in order.</p></div><span className="kid-step-arrow">➜</span><div className="kid-step"><span className="kid-step-icon">💻</span><b>3. Code</b><p>Tell the computer what to do.</p></div><span className="kid-step-arrow">➜</span><div className="kid-step"><span className="kid-step-icon">🎉</span><b>4. Test & celebrate</b><p>Try it, learn, and earn a reward.</p></div></div>
       <div className="kindness-note"><span>💛</span><div><strong>Remember, detectives: mistakes are clues!</strong><p>If something doesn't work, Byte will help you try again. That's how every coder learns.</p></div></div>
     </section>
+      <footer className="creator-credit">
+        <span>💡</span>
+        <span>Ideated by <strong>Mahua Banerjee</strong></span>
+      </footer>
   </div>
 }
 

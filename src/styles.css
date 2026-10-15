@@ -42,3 +42,22 @@ body{background:#fffaf0;color:var(--kid-ink)}
 .footer{border-top:2px solid #e8e8f4;background:#fffdf8;color:#687591}.footer p{color:#78839d}.footer-note{color:#8a94ab}
 @media(max-width:850px){.kid-welcome{grid-template-columns:1fr .8fr;gap:15px}.buddy-scene{transform:scale(.94)}.kid-steps{gap:6px}.kid-step{padding:14px 8px}}
 @media(max-width:620px){.kid-welcome{display:flex;flex-direction:column;align-items:stretch;padding-top:30px;gap:12px}.welcome-copy h1{font-size:38px;letter-spacing:-1.3px}.welcome-copy>p{font-size:14px}.buddy-scene{height:320px;transform:none;width:100%;margin:5px auto 8px}.buddy-character{transform:scale(.82);margin-top:70px}.buddy-speech{top:12px;left:3%;max-width:190px;padding:10px 12px;font-size:10px}.xp-bubble{bottom:13px;right:3%;font-size:11px}.home-progress-card{padding:15px;gap:11px}.progress-character{width:44px;height:44px;font-size:23px;border-radius:14px}.home-progress-copy>strong{font-size:14px}.home-progress-copy p{font-size:10px}.progress-percent{font-size:18px}.kid-section-heading{align-items:flex-start}.kid-section-heading>span{width:44px;height:44px;font-size:23px}.kid-section-heading h2{font-size:21px}.kid-section-heading p{font-size:11px}.path-cards{grid-template-columns:1fr;gap:13px}.path-card{min-height:0;display:grid;grid-template-columns:66px 1fr;column-gap:12px;padding:17px}.path-emoji{grid-row:span 3;margin:0;width:58px;height:58px}.path-step{align-self:end}.path-card strong{font-size:17px}.path-card small{margin-top:4px}.path-action{grid-column:2;padding-top:10px}.kid-steps{display:grid;grid-template-columns:1fr 1fr;gap:12px}.kid-step-arrow{display:none}.kid-step{padding:14px 10px}.kid-step p{font-size:10px}.journey-banner{padding:13px;gap:10px}.journey-banner strong{font-size:14px}.journey-banner p{font-size:11px}.journey-mascot{font-size:28px}.guided-page .page-title{font-size:32px}}
+/* Creator attribution */
+.creator-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 22px 16px;
+  margin-top: 20px;
+  color: #68749b;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #eee7ff;
+  background: #fffaf1;
+}
+
+.creator-credit strong {
+  color: #7858d6;
+  font-weight: 700;
+}
